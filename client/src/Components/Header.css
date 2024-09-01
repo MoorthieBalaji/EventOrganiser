@@ -1,0 +1,73 @@
+/* import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Nosifer&family=Princess+Sofia&display=swap');
+
+.logo{
+    font-family: "Wittgenstein", serif;
+    font-size: 30px;
+}
+.nav .lv  {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+}
+.nav .lb  {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+}
+.nav .lb::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* Adjust thickness */
+ 
+    left: 0;
+    bottom: -1px; 
+    transition:  0.3s;
+}
+
+.nav .lv::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* Adjust thickness */
+ 
+    left: 0;
+    bottom: 2px; /* Adjust offset value as needed */
+    transition:  0.3s;
+}
+
+.nav .lv:hover::after,
+.nav .lv:active::after {
+    background-color: #FF00FF;
+    color: #FF00FF;
+}
+.nav .lb:hover::after,
+.nav .lb:active::after {
+    background-color: #0AFFFF; /* Change this color as needed */
+}
+
+
+.nav{
+    height: 80px;
+    /* border: 0;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, #FF00FF, #0AFFFF) 1; */
+}
+.t1{
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t2{
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link{
+    color: white;
+    font-family: "Wittgenstein", serif;
+    margin-right: 50px;
+    font-size: 20px;
+
+}

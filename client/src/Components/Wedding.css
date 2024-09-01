@@ -1,0 +1,78 @@
+.header{
+    
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* Ensure it is above other content */
+      
+}
+
+
+
+.s1 {
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s11.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.s2{
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s7.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.s3{
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s8.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.s4{
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.s5{
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s6.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.f1{
+    width: 250px;
+    height: 180px; 
+    background-image: url('../assets/s6.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px rgba(66, 63, 63, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+

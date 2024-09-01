@@ -1,0 +1,57 @@
+.admin-dashboard {
+    background-image: url('../assets/party5.jpg'); /* Background image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; /* Text color to stand out against background */
+    padding: 20px;
+    min-height: 100vh; /* Ensure the dashboard covers the viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-dashboard h2 {
+    margin-bottom: 20px;
+}
+
+.admin-dashboard table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table */
+    margin-bottom: 300px;
+  /* Light transparent background for the table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    overflow: hidden; /* To make sure the rounded corners look clean */
+}
+
+.admin-dashboard th, .admin-dashboard td {
+    padding: 10px;
+    text-align: left;
+}
+
+.admin-dashboard th {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for table headers */
+}
+
+.admin-dashboard tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2); /* Alternating row colors */
+}
+
+.admin-dashboard tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Highlight on hover */
+}
+
+.admin-dashboard ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.admin-dashboard li {
+    padding: 5px 0;
+}
+
+.re{
+    background-color: red;
+}

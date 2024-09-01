@@ -1,0 +1,56 @@
+/* Container for the entire cart page */
+.cart-container {
+  
+    background-image: url('../assets/party5.jpg');
+    background-size: cover;
+    filter: blur(0px);
+    background-position: center;
+    height: 100vh; /* Ensures the container covers the full viewport height */
+}
+
+/* Center the content and set a max-width for the table */
+.cart-body {
+    max-width: 800px; /* Adjust as needed for better fit */
+    margin: 0 auto; /* Center the content horizontally */
+    margin-top: 130px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Light transparent background for readability */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+/* Style the table */
+.cart-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+}
+
+/* Center align the text in table headings and cells */
+.cart-table th, .cart-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for the table cells */
+}
+
+/* Add some padding to table headers */
+.cart-table th {
+    background-color: #f4f4f4; /* Background color for the headers */
+}
+
+/* Align total price to the right */
+.text-right {
+    text-align: right;
+    padding-right: 20px; /* Add padding to the right for alignment */
+}
+
+/* Styling for h2 and h3 headings */
+.yc {
+    margin-bottom: 20px;
+    text-align: center; /* Center align the heading */
+}
+
+.tp {
+    margin-top: 20px;
+    text-align: right; /* Align total price to the right */
+}
