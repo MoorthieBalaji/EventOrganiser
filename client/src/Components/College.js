@@ -48,8 +48,8 @@ const College = () => {
      <Row className='ms-3'>
        <Col>
          <video width="250" height="180" controls onClick={() => handleVideoClick(vf1)}>
-           <source src={vf2} type="video/mp4" />
-           Your browser does not support the video tag.
+           <source src={vf2}   type="video/mp4" />
+           Your browser does not support the video tag...
          </video>
        </Col>
        <Col>
