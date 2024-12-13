@@ -1,21 +1,33 @@
-
-
-
-
-.content{
-    margin-top: 100px;
-}
-
-
-.bt{
-    background: linear-gradient(to right, #FF00FF, #0AFFFF) ;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-.bt:hover {
-    background: linear-gradient(to right, #0AFFFF, #FF00FF);
+.s1 {
+    background-image: url('../assets/d1.jpg');
   }
+  
+  .s2 {
+    background-image: url('../assets/d9.jpg');
+  }
+  
+  .s3 {
+    background-image: url('../assets/d6.jpg');
+  }
+  
+  .s4 {
+    background-image: url('../assets/d7.jpg');
+  }
+  
+  .s5 {
+    background-image: url('../assets/e1.jpg');
+  }
+  
+  .s6 {
+    background-image: url('../assets/e5.jpg');
+  }
+  
+  .s7 {
+    background-image: url('../assets/e4.jpg');
+  }
+  
+  .s8 {
+    background-image: url('../assets/e2.jpg');
+  }
+
+

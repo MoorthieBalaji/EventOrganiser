@@ -1,57 +1,120 @@
 .admin-dashboard {
-    background-image: url('../assets/party5.jpg'); /* Background image */
+    background-image: url('../assets/party5.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: white; /* Text color to stand out against background */
+    color: white; 
     padding: 20px;
-    min-height: 100vh; /* Ensure the dashboard covers the viewport height */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
 
 .admin-dashboard h2 {
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .admin-dashboard table {
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the table */
-    margin-bottom: 300px;
-  /* Light transparent background for the table */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    overflow: hidden; /* To make sure the rounded corners look clean */
+    width: 90%; 
+    max-width: 1000px; 
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
 }
+
 
 .admin-dashboard th, .admin-dashboard td {
-    padding: 10px;
+    padding: 12px;
     text-align: left;
+    word-break: break-word; 
+    color: #fff; 
 }
+
 
 .admin-dashboard th {
-    background-color: rgba(0, 0, 0, 0.5); /* Darker background for table headers */
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
+
 .admin-dashboard tbody tr:nth-child(even) {
-    background-color: rgba(255, 255, 255, 0.2); /* Alternating row colors */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .admin-dashboard tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.4); /* Highlight on hover */
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
+
 .admin-dashboard ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .admin-dashboard li {
     padding: 5px 0;
 }
 
-.re{
-    background-color: red;
+
+.re {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
+.re:hover {
+    background-color: #c0392b; 
+}
+
+
+@media (max-width: 768px) {
+    .admin-dashboard table {
+        width: 100%; 
+        font-size: 14px;
+    }
+
+    .admin-dashboard th, .admin-dashboard td {
+        padding: 8px;
+    }
+
+    .admin-dashboard h2 {
+        font-size: 1.5rem;
+    }
+
+    .re {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-dashboard th, .admin-dashboard td {
+        display: block; 
+        width: 100%;
+    }
+
+    .admin-dashboard table {
+        border: none;
+    }
+
+    .admin-dashboard h2 {
+        font-size: 1.2rem;
+    }
+
+    .re {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+}
+

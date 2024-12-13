@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Bachelor = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Bachelor
+export default Bachelor;

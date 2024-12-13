@@ -1,7 +1,69 @@
-.head{
-    
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
+.b1 {
+    background-image: url('../assets/bp1.jpg');
+  }
+  
+  .b2 {
+    background-image: url('../assets/bp2.jpg');
+  }
+  
+  .b3 {
+    background-image: url('../assets/bp3.jpg');
+  }
+  
+  .b4 {
+    background-image: url('../assets/bp4.jpg');
+  }
+  
+  .b5 {
+    background-image: url('../assets/bp5.jpg');
+  }
+  
+  .b6 {
+    background-image: url('../assets/bp6.jpg');
+  }
+  
+  .b7 {
+    background-image: url('../assets/bp7.jpg');
+  }
+  
+  .b8 {
+    background-image: url('../assets/bp8.jpg');
+  }
+  .b9 {
+    background-image: url('../assets/c1.jpg');
+  }
+  
+  .b10 {
+    background-image: url('../assets/c2.jpg');
+  }
+  
+  .b11 {
+    background-image: url('../assets/c3.jpg');
+  }
+  
+  .b12 {
+    background-image: url('../assets/c4.jpg');
+  }
+  
+  .b13 {
+    background-image: url('../assets/c5.jpg');
+  }
+  
+  .b14 {
+    background-image: url('../assets/c6.jpg');
+  }
+  
+  .b15 {
+    background-image: url('../assets/c7.jpg');
+  }
+  
+  .b16 {
+    background-image: url('../assets/c8.jpg');
+  }
+  .b17 {
+    background-image: url('../assets/d5.jpg');
+  }
+  
+  .b18 {
+    background-image: url('../assets/img44.jpg');
+  }

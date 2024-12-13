@@ -1,56 +1,131 @@
-/* Container for the entire cart page */
-.cart-container {
-  
+.main {
     background-image: url('../assets/party5.jpg');
     background-size: cover;
-    filter: blur(0px);
-    background-position: center;
-    height: 100vh; /* Ensures the container covers the full viewport height */
-}
-
-/* Center the content and set a max-width for the table */
-.cart-body {
-    max-width: 800px; /* Adjust as needed for better fit */
-    margin: 0 auto; /* Center the content horizontally */
-    margin-top: 130px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.9); /* Light transparent background for readability */
-    border-radius: 8px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
-}
-
-/* Style the table */
-.cart-table {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
     width: 100%;
-    margin-bottom: 20px;
-    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    padding: 20px 0; 
+    position: relative;
+    
 }
 
-/* Center align the text in table headings and cells */
-.cart-table th, .cart-table td {
+
+.cart-container {
+  
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+ 
+ 
+ 
+
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 16px;
     text-align: center;
-    padding: 10px;
-    border: 1px solid #ddd; /* Light border for the table cells */
-}
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: rgba(244, 154, 235, 0.7);
+  }
+  
 
-/* Add some padding to table headers */
-.cart-table th {
-    background-color: #f4f4f4; /* Background color for the headers */
-}
+  
 
-/* Align total price to the right */
-.text-right {
-    text-align: right;
-    padding-right: 20px; /* Add padding to the right for alignment */
-}
-
-/* Styling for h2 and h3 headings */
-.yc {
-    margin-bottom: 20px;
-    text-align: center; /* Center align the heading */
-}
-
-.tp {
+  .cart-table .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  
+  .ts{
+    text-align: center;
     margin-top: 20px;
-    text-align: right; /* Align total price to the right */
-}
+    font-weight: bold;
+    color:black;
+    background-color: rgba(10, 255, 255, 0.7);  
+  }
+    
+  
+  
+  @media (min-width: 769px) {
+    .cart-container {
+      padding: 30px;
+    }
+  
+    .cart-table th,
+    .cart-table td {
+      font-size: 1.1rem;
+      padding: 18px;
+    }
+  
+    .btn {
+      font-size: 16px;
+      padding: 10px 14px;
+    }
+  
+    .yc {
+      font-size: 2.5rem;
+    }
+  
+    .tp {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cart-container {
+      padding: 15px;
+    }
+  
+    .cart-table th,
+    .cart-table td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  
+    .yc {
+      font-size: 1.5rem;
+    }
+  
+    .tp {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cart-container {
+      padding: 10px;
+    }
+  
+    .cart-table th,
+    .cart-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .btn {
+      font-size: 10px;
+      padding: 4px 8px;
+    }
+  
+    .yc {
+      font-size: 1.2rem;
+    }
+  
+    .tp {
+      font-size: 1rem;
+    }
+  }
+  
