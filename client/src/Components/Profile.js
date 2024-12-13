@@ -10,7 +10,7 @@ const Profile = () => {
   const userMobile = sessionStorage.getItem("userMobile");
   if (!userName || !userMobile) {
     navigate("/Login");
-    // return null;
+    return null;
   }
   return (
     <div className="header-container">
