@@ -102,7 +102,7 @@ const College = () => {
               </div>
             </Col>
             <Col xs={10} sm={6} md={3} className="text-center">
-              <div className="card1 " onClick={() => handleShow(img2)}>
+              <div className="card1 ">
                 <video
                   width="250"
                   height="180"
@@ -128,7 +128,7 @@ const College = () => {
               </div>
             </Col>
             <Col xs={10} sm={6} md={3} className="text-center">
-              <div className="card1 " onClick={() => handleShow(img3)}>
+              <div className="card1 ">
                 <video
                   width="250"
                   height="180"
@@ -155,7 +155,7 @@ const College = () => {
               </div>
             </Col>
             <Col xs={10} sm={6} md={3} className="text-center">
-              <div className="card1 " onClick={() => handleShow(img4)}>
+              <div className="card1 ">
                 <video
                   width="250"
                   height="180"
