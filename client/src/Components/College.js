@@ -8,7 +8,7 @@ import vf3 from "../assets/ce3.mp4";
 import vf5 from "../assets/ce5.mp4";
 import img1 from "../assets/d1.jpg";
 import img2 from "../assets/d9.jpg";
-import img3 from "../assets/d8.jpg";
+// import img3 from "../assets/d8.jpg";
 import img4 from "../assets/d6.jpg";
 import img5 from "../assets/d7.jpg";
 import img6 from "../assets/e1.jpg";

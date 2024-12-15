@@ -14,7 +14,8 @@ const Contact = () => {
 
   const handleClick = async (e) => {
     e.preventDefault(); // Prevent page refresh
-
+    // console.log("Hello");
+    // toast.error("Error");
     if (!name) {
       toast.error("Enter name", { position: "top-center" });
     } else if (!email) {
