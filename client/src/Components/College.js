@@ -75,7 +75,7 @@ const College = () => {
           <Row className="mt-5 g-4 justify-content-center">
             <h3 className="text4">Stage Setup:</h3>
             <Col xs={10} sm={6} md={3} className="text-center">
-              <div className="card1 " onClick={() => handleShow(img2)}>
+              <div className="card1 ">
                 <video
                   width="250"
                   height="180"
