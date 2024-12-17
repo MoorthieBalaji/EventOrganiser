@@ -53,7 +53,7 @@ const AdminDashboard = () => {
       <div className="admin-dashboard">
         <h2>ADMIN DASHBOARD</h2>
 
-        <h3>Users</h3>
+        <h3 className="mt-5">Users</h3>
         <table>
           <thead>
             <tr>
